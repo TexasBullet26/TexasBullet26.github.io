@@ -1,7 +1,7 @@
 ---
-title: Landing
+title: Glenn Lanzer III
 layout: landing
-description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
+description: 'Full-stack developer with Knowledge<br />of many web technologies.'
 image: assets/images/pic07.jpg
 nav-menu: true
 ---
@@ -13,9 +13,9 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h2>Sed amet aliquam</h2>
+			<h2>About me</h2>
 		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+		<p>Hello! My name is Glenn Lanzer III and I'm from Denton, TX. Currently free-lancing and available for hire! I am a full-stack software developer with experience in JavaScript (React, JSX, jQurery, Babel, etc.), Python, MySQL, MongoDB, CSS, SCSS, Less and more!</p>
 	</div>
 </section>
 
