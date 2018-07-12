@@ -3,8 +3,8 @@ title: Glenn Lanzer III
 subtitle: by G3 Designs
 email: lanzertrey@gmail.com
 description: A responsive site template designed by G3 Designs
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://TexasBullet26.github.io # the base hostname & protocol for your site
 author: Glenn Lanzer III
 street_address: 7208 Sunburst Trail
 city: Denton
@@ -22,7 +22,7 @@ tiles-count: 6
 facebook_url: https://facebook.com/trey.lanzer
 github_url: https://github.com/TexasBullet26
 gitlab_url: 
-# googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
+googleplus_url: https://plus.google.com/u/0/+lanzertrey
 instagram_url: https://instagram.com/treylanzer
 linkedin_url: https://www.linkedin.com/in/glenn-lanzer
 pinterest_url:
