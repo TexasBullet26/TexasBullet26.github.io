@@ -90,7 +90,7 @@ twitter_url: https://twitter.com/LanzerTrey26
 
 # External Services, leave blank to ignore or put true to use
 service:
-  google_analytics_key: "UA-"
+  google_analytics_key: "UA-99924733-3"
   disqus_key:
   muut: false
   google_adsense: false
