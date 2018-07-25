@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+	Personal by G3 Designs
+	TexasBullet26.github.io | @TexasBullet26
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+
+<!-- Main -->
+<div id="main" class="alt">
+
+    <!-- One -->
+    <section id="one">
+        <div class="inner">
+        <!-- Site Posts -->
+        {% assign posts_twil = site.twil | where:"grouped_by","twil" %}
+        <ul>
+        {% for twil in posts_twil limit:33 %}
+            <header class="major">
+                <h1>{{ posts_twil.title }}</h1>
+            </header>
+            <!-- If Site Post has Image -->
+            {% if categories.image %}
+                <span class="image main">
+                    <img src="{{ site.baseurl }}/{{ post.image }}" alt="" />
+                </span>
+            {% endif %}
+            <!-- If Site Post has Date -->
+            {% if post.date %}
+                <p>{{ posts_twil.date }}</p>
+            {% endif %}
+                <!-- The Posts Content -->
+                <p>{{ posts_twil.content }}</p>
+        {% endfor %}
+        <!-- End of Site Posts -->
+        </ul>
+        </div>
+    </section>
+
+</div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>
