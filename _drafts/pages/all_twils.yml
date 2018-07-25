@@ -1,0 +1,16 @@
+---
+layout: alltwils
+sitemap:
+  exclude: 'yes'
+---
+# Helper for related links
+
+# just copy the result manually
+# from _site/pages/all_posts.yml 
+# to folder _data/all_posts.yml
+
+{% for twil in site.twils %}{% unless twil.published == false %}{% if twil.date %}
+- id: {{ twil.date | date: "%y%m%d%M" }}
+  title: "{{ twil.title }}"
+  url: {{ twil.url }}
+{% endif %}{% endunless %}{% endfor %}
