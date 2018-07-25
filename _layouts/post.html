@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
+	Glenn Lanzer by G3 Designs
+	TexasBullet26.github.io | @TexasBullet26
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 
+<!-- Includes head.html from _includes/head.html -->
 {% include head.html %}
+<!-- END / (Includes head.html) / -->
 
 <body>
 
-    {% include header.html %} 
-    
-    
+	<!-- Include header.html from _includes/header.html -->
+    {% include header.html %}
+	<!-- END / (Includes header.html) / -->
+
+
 <!-- Main -->
 <div id="main" class="alt">
 
@@ -20,16 +24,28 @@
 <section id="one">
 	<div class="inner">
 		<header class="major">
+			<!-- Title of Page -->
 			<h1>{{ page.title }}</h1>
+			<!-- END / Title of Page / -->
 		</header>
-		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
+		<!-- If Page has image -->
+		{% if page.image %}
+			<span class="image main">
+				<img src="{{ site.baseurl }}/{{ page.image }}" alt="" />
+			</span>
+		{% endif %}
+		<!-- END / (Page has image) / -->
+
+		<!-- Content in Page that is not in YML Front Matter -->
 		<p>{{ content }}</p>
 	</div>
 </section>
 
 </div>
 
+	<!-- Include footer.html from _includes/footer.html -->
     {% include footer.html %}
+	<!-- END / (footer.html) / -->
 
 </body>
 
