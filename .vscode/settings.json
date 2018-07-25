@@ -1,0 +1,128 @@
+{
+  "window.zoomLevel": -1,
+  "editor.fontSize": 18,
+  "editor.lineHeight": 22,
+  "editor.letterSpacing": 0.2,
+  "workbench.editor.tabSizing": "shrink",
+  "html.format.enable": true,
+  "html.format.preserveNewLines": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.colorDecorators": false,
+  "editor.minimap.enabled": false,
+  //"vscode_custom_css.imports": ["E:\\Sandbox\\dotfiles\\.vscodestyles.css"],
+  "workbench.activityBar.visible": true,
+  "workbench.sideBar.location": "left",
+  // "gitlens.blame.line.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.rulers": [80, 100, 120],
+  "editor.minimap.showSlider": "always",
+  "workbench.startupEditor": "newUntitledFile",
+  "extensions.ignoreRecommendations": false,
+  "workbench.colorTheme": "Cobalt Next",
+  "workbench.editor.tabCloseButton": "right",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.snippetSuggestions": "top",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+  "editor.formatOnSave": false,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "editor.tabSize": 4
+  //"workbench.colorCustomizations": {
+  //"tab.activeBackground": "#555555", //"#012A4B",
+  //"activityBar.background": "#012A4B",
+  //"statusBar.background": "#012A4B",
+  //"activityBarBadge.background": "#AA99FF",
+  //"activityBarBadge.foreground": "#000" //"#1A1D21"
+  //"editorGroup.background": "#1A1D21",
+  //"sideBar.background": "#1A1D21"
+  //}
+  /*"editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "text.html.markdown.journal.task.open.bullet",
+        "settings": {
+          "foreground": "#FFFF00"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.task.open.marker",
+        "settings": {
+          "foreground": "#FFFF00"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.task.open.keyword",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.task.open.text",
+        "settings": {
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.task.completed.keyword",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.task.completed.marker",
+        "settings": {
+          "foreground": "#AAAAAA"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.task.completed.text",
+        "settings": {
+          "foreground": "#AAAAAA"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.task.completed.bullet",
+        "settings": {
+          "foreground": "#FFFF00"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.memo.keyword",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.memo.bullet",
+        "settings": {
+          "foreground": "#FFFF00"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.scope",
+        "settings": {
+          "foreground": "#FFFF00",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.link.keyword",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.link.bullet",
+        "settings": {
+          "foreground": "#FFFF00"
+        }
+      }
+    ]
+  }*/
+}
