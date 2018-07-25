@@ -64,8 +64,9 @@ defaults:
       layout: "alltwils"
       category: "alltwils"
       permalink: "/:categories/:title/"
+
 # contact form settings
-form_url: https://formspree.io/youremailaddress@gmail.com # endpoint URL to receive contact form submissions
+form_url: https://formspree.io/lanzertrey@gmail.com # endpoint URL to receive contact form submissions
 form_email_name: _replyto # value of the "name" attribute in the "email" field
 
 # social settings
