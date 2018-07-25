@@ -22,7 +22,7 @@ logo: /assets/site/images/authors/glenn-lanzer.png
 tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 6
 
-permalink: /:title/
+# permalink: /:title/
 
 paginate: 6
 paginate_path: "/:title/blog-:num"
@@ -34,25 +34,36 @@ defaults:
       path: "" # "" -> all pages, "projects" -> (projects directory)
       type: "posts"
     values:
-        layout: "post" # -> Use _layouts/post
-        author: "Glenn Lanzer III"
+      layout: "post" # -> Use _layouts/post
+      author: "Glenn Lanzer III"
 
   -
     scope:
-      path: "/_posts/twil/"
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+  -
+    scope:
+      path: "twil"
       type: "posts"
       #paginate: "/alltwils/"
     values:
-        layout: "post"
-        author: "Glenn Lanzer III"
-        # date: "%y%m%d%M"
+      layout: "post"
+      author: "Glenn Lanzer III"
+      category: "twil"
+      permalink: "/:categories/:title/"
+      # date: "%y%m%d%M"
 
   -
     scope:
-      path: "/_posts/alltwils/"
+      path: "alltwils"
       type: "posts"
     values:
       layout: "alltwils"
+      category: "alltwils"
+      permalink: "/:categories/:title/"
 
 # social settings
 500px_url:
