@@ -12,22 +12,75 @@ state: TX
 zip_code: 76210
 country: United States of America
 phone: (940) 300-8313
+timezone: America/Chicago
+
+# opengraph
+locale: en_US
+logo: /assets/site/images/authors/glenn-lanzer.png
 
 # homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 6
 
+permalink: /:title/
+
+paginate: 6
+paginate_path: "/:title/blog-:num"
+
+# categories
+defaults:
+  -
+    scope:
+      path: "" # "" -> all pages, "projects" -> (projects directory)
+      type: "posts"
+    values:
+        layout: "post" # -> Use _layouts/post
+        author: "Glenn Lanzer III"
+
+  -
+    scope:
+      path: "/_posts/twil/"
+      type: "posts"
+      #paginate: "/alltwils/"
+    values:
+        layout: "post"
+        author: "Glenn Lanzer III"
+        # date: "%y%m%d%M"
+
+  -
+    scope:
+      path: "/_posts/alltwils/"
+      type: "posts"
+    values:
+      layout: "alltwils"
+
 # social settings
 500px_url:
 facebook_url: https://facebook.com/trey.lanzer
 github_url: https://github.com/TexasBullet26
-gitlab_url: 
+gitlab_url:
 googleplus_url: https://plus.google.com/u/0/+lanzertrey
 instagram_url: https://instagram.com/treylanzer
 linkedin_url: https://www.linkedin.com/in/glenn-lanzer
 pinterest_url:
 slack_url:
 twitter_url: https://twitter.com/LanzerTrey26
+
+#plugins:
+#  - jekyll-paginate
+#  - jekyll-sitemap
+#  - jekyll-feed
+#  - jemoji # Lets you include emoji
+#  - github-pages
+
+# External Services, leave blank to ignore or put true to use
+service:
+  google_analytics_key: "UA-"
+  disqus_key:
+  muut: false
+  google_adsense: false
+
+comments: false
 
 # build settings
 markdown: kramdown
