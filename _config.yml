@@ -64,8 +64,9 @@ defaults:
       layout: "alltwils"
       category: "alltwils"
       permalink: "/:categories/:title/"
+
 # contact form settings
-form_url: https://formspree.io/youremailaddress@gmail.com # endpoint URL to receive contact form submissions
+form_url: https://formspree.io/lanzertrey@gmail.com # endpoint URL to receive contact form submissions
 form_email_name: _replyto # value of the "name" attribute in the "email" field
 
 # social settings
@@ -76,7 +77,7 @@ gitlab_url:
 googleplus_url: https://plus.google.com/u/0/+lanzertrey
 instagram_url: https://instagram.com/treylanzer
 linkedin_url: https://www.linkedin.com/in/glenn-lanzer
-pinterest_url:
+pinterest_url: https://www.pinterest.com/glennlanzer/
 slack_url:
 twitter_url: https://twitter.com/LanzerTrey26
 
@@ -89,7 +90,7 @@ twitter_url: https://twitter.com/LanzerTrey26
 
 # External Services, leave blank to ignore or put true to use
 service:
-  google_analytics_key: "UA-"
+  google_analytics_key: "UA-99924733-3"
   disqus_key:
   muut: false
   google_adsense: false
