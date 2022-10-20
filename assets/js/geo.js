@@ -19,4 +19,6 @@ function geo() {
     options
   )
 
-}();
+}
+
+geo();
