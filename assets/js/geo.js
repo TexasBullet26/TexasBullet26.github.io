@@ -11,7 +11,7 @@ const options = {
   timeout: 10000,
 };
 
-navigator.geolocation.getCurrentPostion(
+navigator.geolocation.getCurrentPosition(
   successCallback,
   errorCallback,
   options
