@@ -1,18 +1,22 @@
-const successCallback = (position) => {
-  console.log(position);
-};
+function geo() {
 
-const errorCallback = (error) => {
-  console.log(error);
-};
+  function successCallback(position) {
+    console.log(position);
+  }
 
-const options = {
-  enableHighAccuracy: true,
-  timeout: 10000,
-};
+  function errorCallback(error) {
+    console.log(error);
+  }
 
-navigator.geolocation.getCurrentPostion(
-  successCallback,
-  errorCallback,
-  options
-);
+  const options = {
+    enableHighAccuracy: true,
+    timeout: 10000,
+  }
+
+  navigator.geolocation.getCurrentPostion(
+    successCallback,
+    errorCallback,
+    options
+  )
+
+}();
