@@ -1,8 +1,8 @@
-const successCallback(position) {
+const successCallback = (position) => {
   console.log(position);
 };
 
-const errorCallback(error) {
+const errorCallback = (error) => {
   console.log(error);
 };
 
