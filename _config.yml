@@ -1,17 +1,17 @@
 # site settings
 title: Glenn Lanzer III
 subtitle: by G3 Designs
-email: lanzertrey@gmail.com
+email: myemail@mydomain.com
 description: A responsive site template designed by G3 Designs
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://TexasBullet26.github.io # the base hostname & protocol for your site
 author: Glenn Lanzer III
-street_address: 7208 Sunburst Trail
-city: Denton
-state: TX
-zip_code: 76210
+street_address: 99 My Own Lane
+city: San Francisco
+state: CA
+zip_code: 99999
 country: United States of America
-phone: (940) 300-8313
+phone: (999) 999 9999
 timezone: America/Chicago
 
 # opengraph
