@@ -17,6 +17,7 @@ navigator.geolocation.getCurrentPosition(
   options
 );
 
+/**
 button.onclick = function() {
   var startPos;
   var nudge = document.getElementById('nudge');
@@ -77,3 +78,4 @@ window.onload = function() {
   };
   navigator.geolocation.getCurrentPosition(geoSuccess, geoError);
 };
+*/
