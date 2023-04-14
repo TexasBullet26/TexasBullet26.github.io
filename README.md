@@ -1,8 +1,6 @@
-# Forty - Jekyll Theme
+# TexasBullet26 - Jekyll Profile
 
-A Jekyll version of the "Forty" theme by [HTML5 UP](https://html5up.net/).  
-
-![Forty Theme](assets/images/forty.jpg "Forty Theme")
+A Jekyll version of my profile
 
 # How to Use
 
@@ -22,33 +20,9 @@ and [creating pages](https://jekyllrb.com/docs/pages/).
 
 # Credits
 
-Original README from HTML5 UP:
-
-```
-Forty by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-
-
-This is Forty, my latest and greatest addition to HTML5 UP and, per its incredibly
-creative name, my 40th (woohoo)! It's built around a grid of "image tiles" that are
-set up to smoothly transition to secondary landing pages (for which a separate page
+This is Forty, my latest and greatest addition. It's built around a grid of "image tiles" that are set up to smoothly transition to secondary landing pages (for which a separate page
 template is provided), and includes a number of neat effects (check out the menu!),
 extra features, and all the usual stuff you'd expect. Hope you dig it!
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
 
 	Icons:
 		Font Awesome (fortawesome.github.com/Font-Awesome)
